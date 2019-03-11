@@ -44,10 +44,6 @@
   content: "\e900";
 }
 
-
-
-
-
 body{
     font-family: 'Source Sans Pro', system-ui;
     margin: 0;
@@ -270,22 +266,6 @@ figure{
     background-size: 50px 50px;
     margin: 0 10px;
 }
-/* 
-.social-link.twitter{
-    background-image: url('../images/twitter.svg');
-}
-
-.social-link.facebook{
-    background-image: url('../images/facebook.svg');
-}
-
-.social-link.github{
-    background-image: url('../images/github.svg');
-}
-
-.social-link.instagram{
-    background-image: url('../images/instagram.svg');
-} */
 
 .form-email input{
     border-color: gray;
@@ -339,14 +319,7 @@ figure{
     left: 5px;
     top: 5px;
     color: white;
-    /*
-        CENTRAR EL ICONO
-    display: flex;
-    align-items: center;
-    justify-content: center; */
 }
-
-/* desktop first que empieces desde el MQ más grande */
 
 @media screen and (max-width:1023px){
     .event-list-title{
